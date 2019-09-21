@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'lato' , sans-serif;
+}
+
+header {
+    background-color: gray;
+    opacity: 0.5;
+    padding: 30px;
+    font-size: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.sessao1 {
+    background-color: #4DBC9C;
+    padding: 20px;
+}
+
+.sessao2 {
+    background-color: #2C3E50;
+    padding: 20px;
+}
+
+.sessao3 {
+    background-color: #4DBC9C;
+    padding: 20px;
+}
+
+.sessao4 {
+    background-color: coral;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+.container_horizontal {
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.container_vertical {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+img {
+    height: 100px;
+}
+
+.galeria1 {
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+.galeria2 {
+    width: 300px;
+    height: 300px;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+.galeria3 {
+    width: 300px;
+    height: 300px;
+    background-color: darkorchid;
+    border-radius: 10px;
+}
+.galeria4 {
+    width: 300px;
+    height: 300px;
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+.galeria5 {
+    width: 300px;
+    height: 300px;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+.galeria6 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+.galerias1 {
+    margin-bottom: 130px;
+}
+
+.galerias2 {
+    margin-bottom: 95px;
+}
+
+ul {
+    display: flex;
+    margin-left: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin-right: 20px;
+    justify-content: space-between;
+    list-style: none;
+    list-style-type: none;
+    line-height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 600px;
+    height: 100px; 
+    margin-bottom: 20px;
+}
+
+form p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
