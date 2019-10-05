@@ -5,21 +5,22 @@
 }
 
 header {
-    background: rgba(100, 100, 100, 0.26);
+    background: rgba(100, 100, 100, 0.40);
     font-size: 20px;
     position: fixed;
     top: 0px;
     width: 100vw;
-    height: 80px;
+    height: 50px;
     -webkit-box-shadow: 0px 0px 7px 0px rgba(130, 123, 130, 1);
     -moz-box-shadow: 0px 0px 7px 0px rgba(130, 123, 130, 1);
     box-shadow: 0px 0px 7px 0px rgba(130, 123, 130, 1);
 }
 
 header img {
-    padding-top: 10px;
+    padding: 4px 0px;
     padding-bottom: 10px;
-    height: 63px;
+    height: 45px;
+    
 }
 
 footer {
@@ -28,10 +29,14 @@ footer {
 }
 
 .sessao1 {
-    background-color: #ebebeb;
-    padding: 248px;
+    background-image: url(../img/fundo4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    height: 607px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .sessao2 {
@@ -59,14 +64,34 @@ footer {
 }
 
 .sessao3 {
-    background-color: #ebebeb;
-    padding: 20px;
+    background-image:url(../img/fundo4.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sessao3 .container_horizontal {
+    width: 70%;
+}
+
+.sessao3 h2 {
+    color: white;
 }
 
 .sessao4 {
     background-color: rgb(32, 32, 32);
     padding: 20px;
     color: aliceblue;
+}
+
+.sessao_redes {
+    background-color: white;
+    height: 60px;
+    padding: 20px;
+}
+
+.sessao_redes h4 {
+    text-align: center;
 }
 
 h1 {
@@ -97,9 +122,8 @@ h2 {
 }
 
 .sessao1 img {
-    padding-left: 320px;
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: 200px;
 }
 
 .galeria1 {
@@ -169,7 +193,7 @@ h2 {
 }
 
 .galerias1 {
-    margin-bottom: 130px;
+    margin-bottom: 80px;
 }
 
 .galerias2 {
@@ -185,6 +209,15 @@ ul {
 nav {
     display: flex;
     justify-content: space-between;
+    height: 50px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: black;
 }
 
 li {
@@ -208,10 +241,11 @@ form {
 }
 
 form input {
-    width: 600px;
-    height: 30px;
+    width: 200px;
+    height: 20px;
     margin-bottom: 20px;
     border-radius: 7px;
+    padding-left: 10px;
 }
 
 form textarea {
@@ -219,8 +253,8 @@ form textarea {
 }
 
 textarea {
-    width: 600px;
-    height: 100px;
+    width: 200px;
+    height: 40px;
     margin-bottom: 20px;
 }
 
@@ -260,7 +294,7 @@ form p {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    border: 1px solid black;
+    
 } 
 
 footer h4 {
@@ -269,6 +303,12 @@ footer h4 {
 }
 
 footer a:hover {
-    background-color: black;
+    background-color: greenyellow;
     color: white;
+    border-radius: 50%;
+}
+
+i {
+    font-size: 25px;
+
 }
