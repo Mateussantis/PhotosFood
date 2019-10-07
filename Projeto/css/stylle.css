@@ -41,7 +41,8 @@ footer {
 
 .sessao2 {
     background-color: rgb(32, 32, 32);
-    padding: 80px;
+    padding-top: 30px;
+    padding-bottom: 80px;
     text-align: center;
     color: aliceblue;
 }
@@ -64,10 +65,12 @@ footer {
 }
 
 .sessao3 {
-    background-image:url(../img/fundo4.jpg);
+    /* background-image:url(../img/fundo4.jpg); */
+    background-color: beige;
     height: 700px;
     background-repeat: no-repeat;
     background-size: 100%;
+    padding-top: 30px;
 }
 
 .sessao3 .container_horizontal {
@@ -75,7 +78,7 @@ footer {
 }
 
 .sessao3 h2 {
-    color: white;
+    color: black;
 }
 
 .sessao4 {
@@ -85,13 +88,15 @@ footer {
 }
 
 .sessao_redes {
-    background-color: white;
-    height: 60px;
-    padding: 20px;
+    background-color: rgb(61, 0, 0);
+    height: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.sessao_redes h4 {
+.sessao_redes .h2 {
     text-align: center;
+    padding-bottom: 15px;
 }
 
 h1 {
@@ -280,7 +285,6 @@ form p {
 }
 
 .redes {
-    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     width: 60%;
@@ -297,12 +301,7 @@ form p {
     
 } 
 
-footer h4 {
-    margin-top: 50px;
-    padding-bottom: 10px;
-}
-
-footer a:hover {
+.sessao_redes a:hover {
     background-color: greenyellow;
     color: white;
     border-radius: 50%;
@@ -310,5 +309,4 @@ footer a:hover {
 
 i {
     font-size: 25px;
-
 }
