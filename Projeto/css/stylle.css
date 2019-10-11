@@ -28,6 +28,7 @@ footer {
     padding: 30px;
 }
 
+
 .sessao1 {
     background-image: url(../img/fundo4.jpg);
     background-repeat: no-repeat;
@@ -114,7 +115,6 @@ h2 {
 .container_horizontal {
     display: flex;
     margin: auto;
-    width: 1200px;
     justify-content: space-between;
 }
 
@@ -223,6 +223,7 @@ nav a {
 
 nav a:hover {
     color: black;
+    transition: .5s;
 }
 
 li {
@@ -234,7 +235,7 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 a:hover {
